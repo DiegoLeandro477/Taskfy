@@ -195,6 +195,7 @@ public class MainScreen extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
+        jTable1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jTable1.setDragEnabled(true);
         jTable1.setFocusable(false);
         jTable1.setGridColor(new java.awt.Color(0, 102, 102));
